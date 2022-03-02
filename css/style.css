@@ -1,0 +1,49 @@
+/* Selector universal */
+/* *{
+    background-color: rgb(197, 181, 255);
+} */
+/* Selectores de etiqueta */
+body{
+    background-color: beige;
+}
+
+h2{
+    color: blue;
+    background-color: aqua;
+}
+
+p{
+    color: red;
+    background-color: aqua;
+}
+
+nav{
+    background-color: aqua;
+}
+
+/* Selectores de clases */
+.p1{
+    background-color: rgb(216, 187, 243);
+    color: black;
+}
+
+.p2{
+    background-color: rgb(160, 255, 168);
+    color: blue;
+}
+
+/* Selectores ID */
+#title2{
+    color: greenyellow;
+    background-color: violet;
+}
+
+#parrafo3{
+    background-color: black;
+}
+
+#parrafo4{
+    background-color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}

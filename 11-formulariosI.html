@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    <!-- Formulario enviando información en URL -->
+    <h2>Formulario 1 en HTML</h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <br>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required>
+        <br>
+        <label for="edad">Edad:</label>
+        <br>
+        <input type="number" id="edad" name="edad" placeholder="Ingresa tu edad" required>
+        <br>
+        <label for="peso">Peso:</label>
+        <br>
+        <label>Género</label><br/>
+        <input type="radio" id="femenino" name="genero" value="femenino"/>
+        <label for="femenino">Femenino</label>
+        <br>
+        <input type="radio" id="masculino" name="genero" value="masculino"/>
+        <label for="masculino">Masculino</label>
+        <br>
+        <input type="number" id="peso" name="peso" placeholder="Ingresa tu peso" step="any" required>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <!-- Formulario con método POST -->
+    <h2>Formulario 2 en HTML</h2>
+    <form method="post">
+        <label for="nombre">Nombre:</label>
+        <br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <br>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required>
+        <br>
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

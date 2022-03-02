@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario en HTML</h1>
+    <form method="post">
+        <label for="nombre">Nombre:</label>
+        <br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <br>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+        <br>
+        <label for="edad">Edad:</label>
+        <br>
+        <input type="number" name="edad" id="edad" required>
+        <br>
+        <label for="hbd">Fecha de nacimiento:</label>
+        <br>
+        <input type="date" name="hbd" id="hbd" required>
+        <br>
+        <label for="time">Hora actual:</label>
+        <br>
+        <input type="time" id="time" name="time">
+        <br>
+        <label for="datetime">Fecha y hora:</label>
+        <br>
+        <input type="datetime-local" id="datetime" name="datetime">
+        <br>
+        <label for="peso">Peso:</label>
+        <br>
+        <input type="number" name="peso" id="peso" placeholder="Ingrese su peso" step="any" required>
+        <br>
+        <label for="genero">Género:</label>
+        <br>
+        <input type="radio" id="genero" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+        <br>
+        <input type="radio" id="genero" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <br>
+        <label for="hobies">Pasatiempo:</label>
+        <br>
+        <input type="checkbox" id="leer" name="leer" value="Leer">
+        <label for="leer">Leer</label>
+        <br>
+        <input type="checkbox" id="music" name="music" value="music">
+        <label for="music">Escuchar música</label>
+        <br>
+        <input type="checkbox" id="sport" name="sport" value="sport">
+        <label for="sport">Jugar fútbol</label>
+        <br>
+        <label for="ciudad">Ciudad de residencia</label>
+        <br>
+        <select name="ciudad" id="ciudad">
+            <option value="">Seleccione una ciudad</option>
+            <option value="Bogotá">Bogotá</option>
+            <option value="Medellín">Medellín</option>
+            <option value="Cali">Cali</option>
+            <option value="Barranquilla">Barranquilla</option>
+            <option value="Cartagena">Cartagena</option>
+        </select>
+        <br>
+        <label for="description">Perfil profesional:</label>
+        <br>
+        <textarea name="description" id="description" cols="20" rows="5"></textarea>
+        <br>
+        <label for="link">URL de cuenta GitHub:</label>
+        <br>
+        <label for="file">Subir hoja de vida:</label>
+        <br>
+        <input type="file" name="file" id="file" accept=".pdf, .jpg">
+        <br>
+        <input type="url" id="link" name="link">
+        <br>
+        <label for="search">Buscador:</label>
+        <br>
+        <label for="color">Selecciones un color:</label>
+        <br>
+        <input type="color" id="color" name="color">
+        <br>
+        <label for="skills">Competencias:</label>
+        <br>
+        <label for="html">HTML 5</label>
+        <meter min="0" max="100" low="25" high="75" optimum="100" value="70">
+        </meter>
+        <br>
+        <label for="Python">Python</label>
+        <meter min="0" max="100" low="25" high="75" optimum="100" value="100">
+        </meter>
+        <br>
+        <input type="search" id="search" name="search">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="ejemplo@misena.edu.co" required>
+        <br>
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
